@@ -1,8 +1,8 @@
 blueprint:
   domain: automation
-  name: Moes/Tuya 4-Button Scene Switch
+  name: Moes/Tuya 4-Button Scene Switch by Emmaly
   description: Automate your Moes/Tuya 4-Button Scene via Zigbee.
-  source_url: https://gist.githubusercontent.com/emmaly/cb01273bf750b63ddc44dbf5de9a0b19/raw/4button-switch.yaml
+  source_url: https://raw.githubusercontent.com/emmaly/homeassistant-blueprints/refs/heads/main/tuya/4button-switch.yaml
   input:
     input_device:
       name: Input Device
