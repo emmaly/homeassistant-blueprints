@@ -1,0 +1,200 @@
+blueprint:
+  domain: automation
+  name: Moes/Tuya 4-Button Scene Switch
+  description: Automate your Moes/Tuya 4-Button Scene via Zigbee.
+  source_url: https://gist.githubusercontent.com/emmaly/cb01273bf750b63ddc44dbf5de9a0b19/raw/4button-switch.yaml
+  input:
+    input_device:
+      name: Input Device
+      description: Select the Moes/Tuya 4-Button Scene Switch device
+      selector:
+        device:
+          integration: zha
+    button_1_short_action:
+      name: Single Press - Button 1
+      description: Action to run on button 1 (top-left) single press
+      default: []
+      selector:
+        action: {}
+    button_1_double_action:
+      name: Double Press - Button 1
+      description: Action to run on button 1 (top-left) double press
+      default: []
+      selector:
+        action: {}
+    button_1_long_action:
+      name: Long Press - Button 1
+      description: Action to run on button 1 (top-left) long press
+      default: []
+      selector:
+        action: {}
+    button_2_short_action:
+      name: Single Press - Button 2
+      description: Action to run on button 2 (top-right) single press
+      default: []
+      selector:
+        action: {}
+    button_2_double_action:
+      name: Double Press - Button 2
+      description: Action to run on button 2 (top-right) double press
+      default: []
+      selector:
+        action: {}
+    button_2_long_action:
+      name: Long Press - Button 2
+      description: Action to run on button 2 (top-right) long press
+      default: []
+      selector:
+        action: {}
+    button_3_short_action:
+      name: Single Press - Button 3
+      description: Action to run on button 3 (lower-left) single press
+      default: []
+      selector:
+        action: {}
+    button_3_double_action:
+      name: Double Press - Button 3
+      description: Action to run on button 3 (lower-left) double press
+      default: []
+      selector:
+        action: {}
+    button_3_long_action:
+      name: Long Press - Button 3
+      description: Action to run on button 3 (lower-left) long press
+      default: []
+      selector:
+        action: {}
+    button_4_short_action:
+      name: Single Press - Button 4
+      description: Action to run on button 4 (lower-right) single press
+      default: []
+      selector:
+        action: {}
+    button_4_double_action:
+      name: Double Press - Button 4
+      description: Action to run on button 4 (lower-right) double press
+      default: []
+      selector:
+        action: {}
+    button_4_long_action:
+      name: Long Press - Button 4
+      description: Action to run on button 4 (lower-right) long press
+      default: []
+      selector:
+        action: {}
+mode: restart
+max_exceeded: silent
+trigger:
+  - id: button_1_short_event
+    device_id: !input input_device
+    domain: zha
+    type: remote_button_short_press
+    subtype: button_1
+    trigger: device
+  - id: button_1_double_event
+    device_id: !input input_device
+    domain: zha
+    type: remote_button_double_press
+    subtype: button_1
+    trigger: device
+  - id: button_1_long_event
+    device_id: !input input_device
+    domain: zha
+    type: remote_button_long_press
+    subtype: button_1
+    trigger: device
+  - id: button_2_short_event
+    device_id: !input input_device
+    domain: zha
+    type: remote_button_short_press
+    subtype: button_2
+    trigger: device
+  - id: button_2_double_event
+    device_id: !input input_device
+    domain: zha
+    type: remote_button_double_press
+    subtype: button_2
+    trigger: device
+  - id: button_2_long_event
+    device_id: !input input_device
+    domain: zha
+    type: remote_button_long_press
+    subtype: button_2
+    trigger: device
+  - id: button_3_short_event
+    device_id: !input input_device
+    domain: zha
+    type: remote_button_short_press
+    subtype: button_3
+    trigger: device
+  - id: button_3_double_event
+    device_id: !input input_device
+    domain: zha
+    type: remote_button_double_press
+    subtype: button_3
+    trigger: device
+  - id: button_3_long_event
+    device_id: !input input_device
+    domain: zha
+    type: remote_button_long_press
+    subtype: button_3
+    trigger: device
+  - id: button_4_short_event
+    device_id: !input input_device
+    domain: zha
+    type: remote_button_short_press
+    subtype: button_4
+    trigger: device
+  - id: button_4_double_event
+    device_id: !input input_device
+    domain: zha
+    type: remote_button_double_press
+    subtype: button_4
+    trigger: device
+  - id: button_4_long_event
+    device_id: !input input_device
+    domain: zha
+    type: remote_button_long_press
+    subtype: button_4
+    trigger: device
+
+action:
+- variables:
+    command: "{{ trigger.id }}"
+- choose:
+  - conditions:
+    - "{{ command == 'button_1_short_event' }}"
+    sequence: !input "button_1_short_action"
+  - conditions:
+    - "{{ command == 'button_1_double_event' }}"
+    sequence: !input "button_1_double_action"
+  - conditions:
+    - "{{ command == 'button_1_long_event' }}"
+    sequence: !input "button_1_long_action"
+  - conditions:
+    - "{{ command == 'button_2_short_event' }}"
+    sequence: !input "button_2_short_action"
+  - conditions:
+    - "{{ command == 'button_2_double_event' }}"
+    sequence: !input "button_2_double_action"
+  - conditions:
+    - "{{ command == 'button_2_long_event' }}"
+    sequence: !input "button_2_long_action"
+  - conditions:
+    - "{{ command == 'button_3_short_event' }}"
+    sequence: !input "button_3_short_action"
+  - conditions:
+    - "{{ command == 'button_3_double_event' }}"
+    sequence: !input "button_3_double_action"
+  - conditions:
+    - "{{ command == 'button_3_long_event' }}"
+    sequence: !input "button_3_long_action"
+  - conditions:
+    - "{{ command == 'button_4_short_event' }}"
+    sequence: !input "button_4_short_action"
+  - conditions:
+    - "{{ command == 'button_4_double_event' }}"
+    sequence: !input "button_4_double_action"
+  - conditions:
+    - "{{ command == 'button_4_long_event' }}"
+    sequence: !input "button_4_long_action"
