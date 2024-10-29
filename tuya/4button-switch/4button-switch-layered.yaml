@@ -263,7 +263,8 @@ blueprint:
       selector:
         action: {}
 
-mode: restart
+mode: queued
+max: 10
 max_exceeded: silent
 
 trigger:
