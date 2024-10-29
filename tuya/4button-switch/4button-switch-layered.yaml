@@ -349,7 +349,7 @@ action:
     command: "{{ trigger.id }}"
     current_layer_entity: !input layer_helper
     current_layer: "{{ states(current_layer_entity) | int }}"
-    previous_layer: "{{ trigger.from_state.state | int if trigger.from_state is not none else 1 }}"
+    previous_layer: "{{ trigger.from_state.state | int if trigger is not none and 'from_state' in trigger and trigger.from_state is not none else 1 }}"
     layered_command: "layer_{{ current_layer }}_{{ command }}"
 
 # Layer deactivation events
