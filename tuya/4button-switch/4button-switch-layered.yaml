@@ -21,196 +21,196 @@ blueprint:
           domain: input_number
 
     layer_1_button_1_short_action:
-      name: Ⅰ ◤ 👆 = Layer 1 - Button 1 - Single Press
+      name: Layer 1 - Button 1 - Single Press
       description: Action to run for layer 1, button 1, single press
       default: []
       selector:
         action: {}
     layer_1_button_1_double_action:
-      name: Ⅰ ◤ 👆👆 = Layer 1 - Button 1 - Double Press
+      name: Layer 1 - Button 1 - Double Press
       description: Action to run for layer 1, button 1, double press
       default: []
       selector:
         action: {}
     layer_1_button_2_short_action:
-      name: Ⅰ ◥ 👆 = Layer 1 - Button 2 - Single Press
+      name: Layer 1 - Button 2 - Single Press
       description: Action to run for layer 1, button 2, single press
       default: []
       selector:
         action: {}
     layer_1_button_2_double_action:
-      name: Ⅰ ◥ 👆👆 = Layer 1 - Button 2 - Double Press
+      name: Layer 1 - Button 2 - Double Press
       description: Action to run for layer 1, button 2, double press
       default: []
       selector:
         action: {}
     layer_1_button_3_short_action:
-      name: Ⅰ ◣ 👆 = Layer 1 - Button 3 - Single Press
+      name: Layer 1 - Button 3 - Single Press
       description: Action to run for layer 1, button 3, single press
       default: []
       selector:
         action: {}
     layer_1_button_3_double_action:
-      name: Ⅰ ◣ 👆👆 = Layer 1 - Button 3 - Double Press
+      name: Layer 1 - Button 3 - Double Press
       description: Action to run for layer 1, button 3, double press
       default: []
       selector:
         action: {}
     layer_1_button_4_short_action:
-      name: Ⅰ ◢ 👆 = Layer 1 - Button 4 - Single Press
+      name: Layer 1 - Button 4 - Single Press
       description: Action to run for layer 1, button 4, single press
       default: []
       selector:
         action: {}
     layer_1_button_4_double_action:
-      name: Ⅰ ◢ 👆👆 = Layer 1 - Button 4 - Double Press
+      name: Layer 1 - Button 4 - Double Press
       description: Action to run for layer 1, button 4, double press
       default: []
       selector:
         action: {}
 
     layer_2_button_1_short_action:
-      name: Ⅱ ◤ 👆 = Layer 2 - Button 1 - Single Press
+      name: Layer 2 - Button 1 - Single Press
       description: Action to run for layer 2, button 1, single press
       default: []
       selector:
         action: {}
     layer_2_button_1_double_action:
-      name: Ⅱ ◤ 👆👆 = Layer 2 - Button 1 - Double Press
+      name: Layer 2 - Button 1 - Double Press
       description: Action to run for layer 2, button 1, double press
       default: []
       selector:
         action: {}
     layer_2_button_2_short_action:
-      name: Ⅱ ◥ 👆 = Layer 2 - Button 2 - Single Press
+      name: Layer 2 - Button 2 - Single Press
       description: Action to run for layer 2, button 2, single press
       default: []
       selector:
         action: {}
     layer_2_button_2_double_action:
-      name: Ⅱ ◥ 👆👆 = Layer 2 - Button 2 - Double Press
+      name: Layer 2 - Button 2 - Double Press
       description: Action to run for layer 2, button 2, double press
       default: []
       selector:
         action: {}
     layer_2_button_3_short_action:
-      name: Ⅱ ◣ 👆 = Layer 2 - Button 3 - Single Press
+      name: Layer 2 - Button 3 - Single Press
       description: Action to run for layer 2, button 3, single press
       default: []
       selector:
         action: {}
     layer_2_button_3_double_action:
-      name: Ⅱ ◣ 👆👆 = Layer 2 - Button 3 - Double Press
+      name: Layer 2 - Button 3 - Double Press
       description: Action to run for layer 2, button 3, double press
       default: []
       selector:
         action: {}
     layer_2_button_4_short_action:
-      name: Ⅱ ◢ 👆 = Layer 2 - Button 4 - Single Press
+      name: Layer 2 - Button 4 - Single Press
       description: Action to run for layer 2, button 4, single press
       default: []
       selector:
         action: {}
     layer_2_button_4_double_action:
-      name: Ⅱ ◢ 👆👆 = Layer 2 - Button 4 - Double Press
+      name: Layer 2 - Button 4 - Double Press
       description: Action to run for layer 2, button 4, double press
       default: []
       selector:
         action: {}
 
     layer_3_button_1_short_action:
-      name: Ⅲ ◤ 👆 = Layer 3 - Button 1 - Single Press
+      name: Layer 3 - Button 1 - Single Press
       description: Action to run for layer 3, button 1, single press
       default: []
       selector:
         action: {}
     layer_3_button_1_double_action:
-      name: Ⅲ ◤ 👆👆 = Layer 3 - Button 1 - Double Press
+      name: Layer 3 - Button 1 - Double Press
       description: Action to run for layer 3, button 1, double press
       default: []
       selector:
         action: {}
     layer_3_button_2_short_action:
-      name: Ⅲ ◥ 👆 = Layer 3 - Button 2 - Single Press
+      name: Layer 3 - Button 2 - Single Press
       description: Action to run for layer 3, button 2, single press
       default: []
       selector:
         action: {}
     layer_3_button_2_double_action:
-      name: Ⅲ ◥ 👆👆 = Layer 3 - Button 2 - Double Press
+      name: Layer 3 - Button 2 - Double Press
       description: Action to run for layer 3, button 2, double press
       default: []
       selector:
         action: {}
     layer_3_button_3_short_action:
-      name: Ⅲ ◣ 👆 = Layer 3 - Button 3 - Single Press
+      name: Layer 3 - Button 3 - Single Press
       description: Action to run for layer 3, button 3, single press
       default: []
       selector:
         action: {}
     layer_3_button_3_double_action:
-      name: Ⅲ ◣ 👆👆 = Layer 3 - Button 3 - Double Press
+      name: Layer 3 - Button 3 - Double Press
       description: Action to run for layer 3, button 3, double press
       default: []
       selector:
         action: {}
     layer_3_button_4_short_action:
-      name: Ⅲ ◢ 👆 = Layer 3 - Button 4 - Single Press
+      name: Layer 3 - Button 4 - Single Press
       description: Action to run for layer 3, button 4, single press
       default: []
       selector:
         action: {}
     layer_3_button_4_double_action:
-      name: Ⅲ ◢ 👆👆 = Layer 3 - Button 4 - Double Press
+      name: Layer 3 - Button 4 - Double Press
       description: Action to run for layer 3, button 4, double press
       default: []
       selector:
         action: {}
 
     layer_4_button_1_short_action:
-      name: Ⅳ ◤ 👆 = Layer 4 - Button 1 - Single Press
+      name: Layer 4 - Button 1 - Single Press
       description: Action to run for layer 4, button 1, single press
       default: []
       selector:
         action: {}
     layer_4_button_1_double_action:
-      name: Ⅳ ◤ 👆👆 = Layer 4 - Button 1 - Double Press
+      name: Layer 4 - Button 1 - Double Press
       description: Action to run for layer 4, button 1, double press
       default: []
       selector:
         action: {}
     layer_4_button_2_short_action:
-      name: Ⅳ ◥ 👆 = Layer 4 - Button 2 - Single Press
+      name: Layer 4 - Button 2 - Single Press
       description: Action to run for layer 4, button 2, single press
       default: []
       selector:
         action: {}
     layer_4_button_2_double_action:
-      name: Ⅳ ◥ 👆👆 = Layer 4 - Button 2 - Double Press
+      name: Layer 4 - Button 2 - Double Press
       description: Action to run for layer 4, button 2, double press
       default: []
       selector:
         action: {}
     layer_4_button_3_short_action:
-      name: Ⅳ ◣ 👆 = Layer 4 - Button 3 - Single Press
+      name: Layer 4 - Button 3 - Single Press
       description: Action to run for layer 4, button 3, single press
       default: []
       selector:
         action: {}
     layer_4_button_3_double_action:
-      name: Ⅳ ◣ 👆👆 = Layer 4 - Button 3 - Double Press
+      name: Layer 4 - Button 3 - Double Press
       description: Action to run for layer 4, button 3, double press
       default: []
       selector:
         action: {}
     layer_4_button_4_short_action:
-      name: Ⅳ ◢ 👆 = Layer 4 - Button 4 - Single Press
+      name: Layer 4 - Button 4 - Single Press
       description: Action to run for layer 4, button 4, single press
       default: []
       selector:
         action: {}
     layer_4_button_4_double_action:
-      name: Ⅳ ◢ 👆👆 = Layer 4 - Button 4 - Double Press
+      name: Layer 4 - Button 4 - Double Press
       description: Action to run for layer 4, button 4, double press
       default: []
       selector:
