@@ -296,7 +296,7 @@ action:
 - variables:
     command: "{{ trigger.id }}"
     current_layer_entity: !input layer_helper
-    current_layer: "{{ states(current_layer_entity) }}"
+    current_layer: "{{ states(current_layer_entity) | int }}"
     layered_command: "layer_{{ current_layer }}_{{ command }}"
 
 - choose:
