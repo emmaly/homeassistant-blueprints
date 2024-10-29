@@ -22,196 +22,244 @@ blueprint:
 
     layer_1_button_1_short_action:
       name: Layer 1 - Button 1 - Single Press
-      description: Action to run for layer 1, button 1, single press
+      description: Action to run for layer 1, button 1 (top-left), single press
       default: []
       selector:
         action: {}
     layer_1_button_1_double_action:
       name: Layer 1 - Button 1 - Double Press
-      description: Action to run for layer 1, button 1, double press
+      description: Action to run for layer 1, button 1 (top-left), double press
       default: []
       selector:
         action: {}
     layer_1_button_2_short_action:
       name: Layer 1 - Button 2 - Single Press
-      description: Action to run for layer 1, button 2, single press
+      description: Action to run for layer 1, button 2 (top-right), single press
       default: []
       selector:
         action: {}
     layer_1_button_2_double_action:
       name: Layer 1 - Button 2 - Double Press
-      description: Action to run for layer 1, button 2, double press
+      description: Action to run for layer 1, button 2 (top-right), double press
       default: []
       selector:
         action: {}
     layer_1_button_3_short_action:
       name: Layer 1 - Button 3 - Single Press
-      description: Action to run for layer 1, button 3, single press
+      description: Action to run for layer 1, button 3 (bottom-left), single press
       default: []
       selector:
         action: {}
     layer_1_button_3_double_action:
       name: Layer 1 - Button 3 - Double Press
-      description: Action to run for layer 1, button 3, double press
+      description: Action to run for layer 1, button 3 (bottom-left), double press
       default: []
       selector:
         action: {}
     layer_1_button_4_short_action:
       name: Layer 1 - Button 4 - Single Press
-      description: Action to run for layer 1, button 4, single press
+      description: Action to run for layer 1, button 4 (bottom-right), single press
       default: []
       selector:
         action: {}
     layer_1_button_4_double_action:
       name: Layer 1 - Button 4 - Double Press
-      description: Action to run for layer 1, button 4, double press
+      description: Action to run for layer 1, button 4 (bottom-right), double press
+      default: []
+      selector:
+        action: {}
+    layer_1_activated_action:
+      name: Layer 1 Activated
+      description: (optional) Action to run when Layer 1 is activated. This does not override the layer switching, but instead can be used as a helpful action, such as turning on a device about to be controlled by this layer.
+      default: []
+      selector:
+        action: {}
+    layer_1_deactivated_action:
+      name: Layer 1 Deactivated
+      description: (optional) Action to run when Layer 1 is deactivated. This does not override the layer switching, but instead can be used as a helpful action, such as turning off a device that was controlled by this layer.
       default: []
       selector:
         action: {}
 
     layer_2_button_1_short_action:
       name: Layer 2 - Button 1 - Single Press
-      description: Action to run for layer 2, button 1, single press
+      description: Action to run for layer 2, button 1 (top-left), single press
       default: []
       selector:
         action: {}
     layer_2_button_1_double_action:
       name: Layer 2 - Button 1 - Double Press
-      description: Action to run for layer 2, button 1, double press
+      description: Action to run for layer 2, button 1 (top-left), double press
       default: []
       selector:
         action: {}
     layer_2_button_2_short_action:
       name: Layer 2 - Button 2 - Single Press
-      description: Action to run for layer 2, button 2, single press
+      description: Action to run for layer 2, button 2 (top-right), single press
       default: []
       selector:
         action: {}
     layer_2_button_2_double_action:
       name: Layer 2 - Button 2 - Double Press
-      description: Action to run for layer 2, button 2, double press
+      description: Action to run for layer 2, button 2 (top-right), double press
       default: []
       selector:
         action: {}
     layer_2_button_3_short_action:
       name: Layer 2 - Button 3 - Single Press
-      description: Action to run for layer 2, button 3, single press
+      description: Action to run for layer 2, button 3 (bottom-left), single press
       default: []
       selector:
         action: {}
     layer_2_button_3_double_action:
       name: Layer 2 - Button 3 - Double Press
-      description: Action to run for layer 2, button 3, double press
+      description: Action to run for layer 2, button 3 (bottom-left), double press
       default: []
       selector:
         action: {}
     layer_2_button_4_short_action:
       name: Layer 2 - Button 4 - Single Press
-      description: Action to run for layer 2, button 4, single press
+      description: Action to run for layer 2, button 4 (bottom-right), single press
       default: []
       selector:
         action: {}
     layer_2_button_4_double_action:
       name: Layer 2 - Button 4 - Double Press
-      description: Action to run for layer 2, button 4, double press
+      description: Action to run for layer 2, button 4 (bottom-right), double press
+      default: []
+      selector:
+        action: {}
+    layer_2_activated_action:
+      name: Layer 2 Activated
+      description: (optional) Action to run when Layer 2 is activated. This does not override the layer switching, but instead can be used as a helpful action, such as turning on a device about to be controlled by this layer.
+      default: []
+      selector:
+        action: {}
+    layer_2_deactivated_action:
+      name: Layer 2 Deactivated
+      description: (optional) Action to run when Layer 2 is deactivated. This does not override the layer switching, but instead can be used as a helpful action, such as turning off a device that was controlled by this layer.
       default: []
       selector:
         action: {}
 
     layer_3_button_1_short_action:
       name: Layer 3 - Button 1 - Single Press
-      description: Action to run for layer 3, button 1, single press
+      description: Action to run for layer 3, button 1 (top-left), single press
       default: []
       selector:
         action: {}
     layer_3_button_1_double_action:
       name: Layer 3 - Button 1 - Double Press
-      description: Action to run for layer 3, button 1, double press
+      description: Action to run for layer 3, button 1 (top-left), double press
       default: []
       selector:
         action: {}
     layer_3_button_2_short_action:
       name: Layer 3 - Button 2 - Single Press
-      description: Action to run for layer 3, button 2, single press
+      description: Action to run for layer 3, button 2 (top-right), single press
       default: []
       selector:
         action: {}
     layer_3_button_2_double_action:
       name: Layer 3 - Button 2 - Double Press
-      description: Action to run for layer 3, button 2, double press
+      description: Action to run for layer 3, button 2 (top-right), double press
       default: []
       selector:
         action: {}
     layer_3_button_3_short_action:
       name: Layer 3 - Button 3 - Single Press
-      description: Action to run for layer 3, button 3, single press
+      description: Action to run for layer 3, button 3 (bottom-left), single press
       default: []
       selector:
         action: {}
     layer_3_button_3_double_action:
       name: Layer 3 - Button 3 - Double Press
-      description: Action to run for layer 3, button 3, double press
+      description: Action to run for layer 3, button 3 (bottom-left), double press
       default: []
       selector:
         action: {}
     layer_3_button_4_short_action:
       name: Layer 3 - Button 4 - Single Press
-      description: Action to run for layer 3, button 4, single press
+      description: Action to run for layer 3, button 4 (bottom-right), single press
       default: []
       selector:
         action: {}
     layer_3_button_4_double_action:
       name: Layer 3 - Button 4 - Double Press
-      description: Action to run for layer 3, button 4, double press
+      description: Action to run for layer 3, button 4 (bottom-right), double press
+      default: []
+      selector:
+        action: {}
+    layer_3_activated_action:
+      name: Layer 3 Activated
+      description: (optional) Action to run when Layer 3 is activated. This does not override the layer switching, but instead can be used as a helpful action, such as turning on a device about to be controlled by this layer.
+      default: []
+      selector:
+        action: {}
+    layer_3_deactivated_action:
+      name: Layer 3 Deactivated
+      description: (optional) Action to run when Layer 3 is deactivated. This does not override the layer switching, but instead can be used as a helpful action, such as turning off a device that was controlled by this layer.
       default: []
       selector:
         action: {}
 
     layer_4_button_1_short_action:
       name: Layer 4 - Button 1 - Single Press
-      description: Action to run for layer 4, button 1, single press
+      description: Action to run for layer 4, button 1 (top-left), single press
       default: []
       selector:
         action: {}
     layer_4_button_1_double_action:
       name: Layer 4 - Button 1 - Double Press
-      description: Action to run for layer 4, button 1, double press
+      description: Action to run for layer 4, button 1 (top-left), double press
       default: []
       selector:
         action: {}
     layer_4_button_2_short_action:
       name: Layer 4 - Button 2 - Single Press
-      description: Action to run for layer 4, button 2, single press
+      description: Action to run for layer 4, button 2 (top-right), single press
       default: []
       selector:
         action: {}
     layer_4_button_2_double_action:
       name: Layer 4 - Button 2 - Double Press
-      description: Action to run for layer 4, button 2, double press
+      description: Action to run for layer 4, button 2 (top-right), double press
       default: []
       selector:
         action: {}
     layer_4_button_3_short_action:
       name: Layer 4 - Button 3 - Single Press
-      description: Action to run for layer 4, button 3, single press
+      description: Action to run for layer 4, button 3 (bottom-left), single press
       default: []
       selector:
         action: {}
     layer_4_button_3_double_action:
       name: Layer 4 - Button 3 - Double Press
-      description: Action to run for layer 4, button 3, double press
+      description: Action to run for layer 4, button 3 (bottom-left), double press
       default: []
       selector:
         action: {}
     layer_4_button_4_short_action:
       name: Layer 4 - Button 4 - Single Press
-      description: Action to run for layer 4, button 4, single press
+      description: Action to run for layer 4, button 4 (bottom-right), single press
       default: []
       selector:
         action: {}
     layer_4_button_4_double_action:
       name: Layer 4 - Button 4 - Double Press
-      description: Action to run for layer 4, button 4, double press
+      description: Action to run for layer 4, button 4 (bottom-right), double press
+      default: []
+      selector:
+        action: {}
+    layer_4_activated_action:
+      name: Layer 4 Activated
+      description: (optional) Action to run when Layer 4 is activated. This does not override the layer switching, but instead can be used as a helpful action, such as turning on a device about to be controlled by this layer.
+      default: []
+      selector:
+        action: {}
+    layer_4_deactivated_action:
+      name: Layer 4 Deactivated
+      description: (optional) Action to run when Layer 4 is deactivated. This does not override the layer switching, but instead can be used as a helpful action, such as turning off a device that was controlled by this layer.
       default: []
       selector:
         action: {}
@@ -219,6 +267,10 @@ blueprint:
 mode: restart
 max_exceeded: silent
 trigger:
+
+  - id: layer_changed
+    type: state
+    entity_id: !input layer_helper
   - id: button_1_short_event
     device_id: !input input_device
     domain: zha
@@ -297,8 +349,40 @@ action:
     command: "{{ trigger.id }}"
     current_layer_entity: !input layer_helper
     current_layer: "{{ states(current_layer_entity) | int }}"
+    previous_layer: "{{ trigger.from_state.state | int if trigger.from_state is not none else 1 }}"
     layered_command: "layer_{{ current_layer }}_{{ command }}"
 
+# Layer deactivation events
+- choose:
+  - conditions:
+    - "{{ command == 'layer_changed' and previous_layer == 1 }}"
+    sequence: !input "layer_1_deactivated_action"
+  - conditions:
+    - "{{ command == 'layer_changed' and previous_layer == 2 }}"
+    sequence: !input "layer_2_deactivated_action"
+  - conditions:
+    - "{{ command == 'layer_changed' and previous_layer == 3 }}"
+    sequence: !input "layer_3_deactivated_action"
+  - conditions:
+    - "{{ command == 'layer_changed' and previous_layer == 4 }}"
+    sequence: !input "layer_4_deactivated_action"
+
+# Layer activation events
+- choose:
+  - conditions:
+    - "{{ command == 'layer_changed' and current_layer == 1 }}"
+    sequence: !input "layer_1_activated_action"
+  - conditions:
+    - "{{ command == 'layer_changed' and current_layer == 2 }}"
+    sequence: !input "layer_2_activated_action"
+  - conditions:
+    - "{{ command == 'layer_changed' and current_layer == 3 }}"
+    sequence: !input "layer_3_activated_action"
+  - conditions:
+    - "{{ command == 'layer_changed' and current_layer == 4 }}"
+    sequence: !input "layer_4_activated_action"
+
+# Button events
 - choose:
 
   # Layer selection via long press actions
