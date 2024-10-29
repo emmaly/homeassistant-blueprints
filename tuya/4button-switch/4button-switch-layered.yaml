@@ -5,7 +5,6 @@ blueprint:
   source_url: https://raw.githubusercontent.com/emmaly/homeassistant-blueprints/refs/heads/main/tuya/4button-switch/4button-switch-layered.yaml
 
   input:
-
     input_device:
       name: Input Device
       description: Select the Moes/Tuya 4-Button Scene Switch device
@@ -266,83 +265,83 @@ blueprint:
 
 mode: restart
 max_exceeded: silent
-trigger:
 
+trigger:
   - id: layer_changed
-    type: state
+    trigger: state
     entity_id: !input layer_helper
   - id: button_1_short_event
-    device_id: !input input_device
+    trigger: device
     domain: zha
+    device_id: !input input_device
     type: remote_button_short_press
     subtype: button_1
-    trigger: device
   - id: button_1_double_event
-    device_id: !input input_device
+    trigger: device
     domain: zha
+    device_id: !input input_device
     type: remote_button_double_press
     subtype: button_1
-    trigger: device
   - id: button_1_long_event
-    device_id: !input input_device
+    trigger: device
     domain: zha
+    device_id: !input input_device
     type: remote_button_long_press
     subtype: button_1
-    trigger: device
   - id: button_2_short_event
-    device_id: !input input_device
+    trigger: device
     domain: zha
+    device_id: !input input_device
     type: remote_button_short_press
     subtype: button_2
-    trigger: device
   - id: button_2_double_event
-    device_id: !input input_device
+    trigger: device
     domain: zha
+    device_id: !input input_device
     type: remote_button_double_press
     subtype: button_2
-    trigger: device
   - id: button_2_long_event
-    device_id: !input input_device
+    trigger: device
     domain: zha
+    device_id: !input input_device
     type: remote_button_long_press
     subtype: button_2
-    trigger: device
   - id: button_3_short_event
-    device_id: !input input_device
+    trigger: device
     domain: zha
+    device_id: !input input_device
     type: remote_button_short_press
     subtype: button_3
-    trigger: device
   - id: button_3_double_event
-    device_id: !input input_device
+    trigger: device
     domain: zha
+    device_id: !input input_device
     type: remote_button_double_press
     subtype: button_3
-    trigger: device
   - id: button_3_long_event
-    device_id: !input input_device
+    trigger: device
     domain: zha
+    device_id: !input input_device
     type: remote_button_long_press
     subtype: button_3
-    trigger: device
   - id: button_4_short_event
-    device_id: !input input_device
+    trigger: device
     domain: zha
+    device_id: !input input_device
     type: remote_button_short_press
     subtype: button_4
-    trigger: device
   - id: button_4_double_event
-    device_id: !input input_device
+    trigger: device
     domain: zha
+    device_id: !input input_device
     type: remote_button_double_press
     subtype: button_4
-    trigger: device
   - id: button_4_long_event
-    device_id: !input input_device
+    trigger: device
     domain: zha
+    device_id: !input input_device
     type: remote_button_long_press
     subtype: button_4
-    trigger: device
 
 action:
 - variables:
