@@ -1,6 +1,6 @@
-# Moes/Tuya 4-button Switch
+# Moes/Tuya 4-button Scene Switch
 
-![Moes/Tuya 4-button switch](image.png)
+![Moes/Tuya 4-button scene switch](image.png)
 
 This is a Tuya 4-button switch. It is sold under various names, such as Moes. It is a 4-button switch that can be used to control lights or other devices.
 
